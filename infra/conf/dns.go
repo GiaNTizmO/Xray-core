@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xtls/xray-core/app/dns"
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/giantizmo/xray-core/app/dns"
+	"github.com/giantizmo/xray-core/app/router"
+	"github.com/giantizmo/xray-core/common/errors"
+	"github.com/giantizmo/xray-core/common/net"
 )
 
 type NameServerConfig struct {

@@ -8,25 +8,25 @@ import (
 	"time"
 
 	"github.com/pires/go-proxyproto"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/giantizmo/xray-core/common"
+	"github.com/giantizmo/xray-core/common/buf"
+	"github.com/giantizmo/xray-core/common/dice"
+	"github.com/giantizmo/xray-core/common/errors"
+	"github.com/giantizmo/xray-core/common/net"
+	"github.com/giantizmo/xray-core/common/platform"
+	"github.com/giantizmo/xray-core/common/retry"
+	"github.com/giantizmo/xray-core/common/session"
+	"github.com/giantizmo/xray-core/common/signal"
+	"github.com/giantizmo/xray-core/common/task"
+	"github.com/giantizmo/xray-core/core"
+	"github.com/giantizmo/xray-core/features/dns"
+	"github.com/giantizmo/xray-core/features/policy"
+	"github.com/giantizmo/xray-core/features/stats"
+	"github.com/giantizmo/xray-core/proxy"
+	"github.com/giantizmo/xray-core/transport"
+	"github.com/giantizmo/xray-core/transport/internet"
+	"github.com/giantizmo/xray-core/transport/internet/stat"
+	"github.com/giantizmo/xray-core/transport/internet/tls"
 )
 
 var useSplice bool
@@ -506,7 +506,7 @@ func (f *FragmentWriter) Write(b []byte) (int, error) {
 	}
 }
 
-// stolen from github.com/xtls/xray-core/transport/internet/reality
+// stolen from github.com/giantizmo/xray-core/transport/internet/reality
 func randBetween(left int64, right int64) int64 {
 	if left == right {
 		return left

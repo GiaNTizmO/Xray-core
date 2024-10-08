@@ -11,9 +11,9 @@ import (
 
 	"github.com/amnezia-vpn/amneziawg-go/conn"
 
-	xnet "github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/transport/internet"
+	xnet "github.com/giantizmo/xray-core/common/net"
+	"github.com/giantizmo/xray-core/features/dns"
+	"github.com/giantizmo/xray-core/transport/internet"
 )
 
 type netReadInfo struct {

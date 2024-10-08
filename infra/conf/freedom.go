@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xtls/xray-core/common/errors"
-	v2net "github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/proxy/freedom"
+	"github.com/giantizmo/xray-core/common/errors"
+	v2net "github.com/giantizmo/xray-core/common/net"
+	"github.com/giantizmo/xray-core/common/protocol"
+	"github.com/giantizmo/xray-core/proxy/freedom"
 	"google.golang.org/protobuf/proto"
 )
 

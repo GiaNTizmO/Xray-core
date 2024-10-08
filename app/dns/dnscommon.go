@@ -6,13 +6,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/core"
-	dns_feature "github.com/xtls/xray-core/features/dns"
+	"github.com/giantizmo/xray-core/common"
+	"github.com/giantizmo/xray-core/common/errors"
+	"github.com/giantizmo/xray-core/common/log"
+	"github.com/giantizmo/xray-core/common/net"
+	"github.com/giantizmo/xray-core/common/session"
+	"github.com/giantizmo/xray-core/core"
+	dns_feature "github.com/giantizmo/xray-core/features/dns"
 	"golang.org/x/net/dns/dnsmessage"
 )
 

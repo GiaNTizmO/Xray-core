@@ -4,14 +4,14 @@ import (
 	"context"
 	"time"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/mux"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/giantizmo/xray-core/common/errors"
+	"github.com/giantizmo/xray-core/common/mux"
+	"github.com/giantizmo/xray-core/common/net"
+	"github.com/giantizmo/xray-core/common/session"
+	"github.com/giantizmo/xray-core/common/task"
+	"github.com/giantizmo/xray-core/features/routing"
+	"github.com/giantizmo/xray-core/transport"
+	"github.com/giantizmo/xray-core/transport/pipe"
 	"google.golang.org/protobuf/proto"
 )
 

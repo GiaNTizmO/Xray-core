@@ -4,11 +4,11 @@ import (
 	"io"
 	"strings"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/cmdarg"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/giantizmo/xray-core/common"
+	"github.com/giantizmo/xray-core/common/buf"
+	"github.com/giantizmo/xray-core/common/cmdarg"
+	"github.com/giantizmo/xray-core/common/errors"
+	"github.com/giantizmo/xray-core/main/confloader"
 	"google.golang.org/protobuf/proto"
 )
 

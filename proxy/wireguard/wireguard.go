@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/amnezia-vpn/amneziawg-go/device"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/log"
+	"github.com/giantizmo/xray-core/common"
+	"github.com/giantizmo/xray-core/common/log"
 )
 
 var wgLogger = &device.Logger{

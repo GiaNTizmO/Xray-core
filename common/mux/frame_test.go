@@ -3,10 +3,10 @@ package mux_test
 import (
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/mux"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/giantizmo/xray-core/common"
+	"github.com/giantizmo/xray-core/common/buf"
+	"github.com/giantizmo/xray-core/common/mux"
+	"github.com/giantizmo/xray-core/common/net"
 )
 
 func BenchmarkFrameWrite(b *testing.B) {

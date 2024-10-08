@@ -1,9 +1,9 @@
-package retry // import "github.com/xtls/xray-core/common/retry"
+package retry // import "github.com/giantizmo/xray-core/common/retry"
 
 import (
 	"time"
 
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/giantizmo/xray-core/common/errors"
 )
 
 var ErrRetryFailed = errors.New("all retry attempts failed")

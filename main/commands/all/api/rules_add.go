@@ -3,11 +3,11 @@ package api
 import (
 	"fmt"
 
-	routerService "github.com/xtls/xray-core/app/router/command"
-	cserial "github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/commands/base"
+	routerService "github.com/giantizmo/xray-core/app/router/command"
+	cserial "github.com/giantizmo/xray-core/common/serial"
+	"github.com/giantizmo/xray-core/infra/conf"
+	"github.com/giantizmo/xray-core/infra/conf/serial"
+	"github.com/giantizmo/xray-core/main/commands/base"
 )
 
 var cmdAddRules = &base.Command{
