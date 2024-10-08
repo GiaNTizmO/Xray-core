@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"sync"
 
-	"golang.zx2c4.com/wireguard/conn"
+	"github.com/amnezia-vpn/amneziawg-go/conn"
 
 	xnet "github.com/xtls/xray-core/common/net"
 	"github.com/xtls/xray-core/features/dns"

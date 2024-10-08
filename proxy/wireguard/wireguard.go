@@ -7,9 +7,9 @@ import (
 	"net/netip"
 	"strings"
 
+	"github.com/amnezia-vpn/amneziawg-go/device"
 	"github.com/xtls/xray-core/common"
 	"github.com/xtls/xray-core/common/log"
-	"golang.zx2c4.com/wireguard/device"
 )
 
 var wgLogger = &device.Logger{
